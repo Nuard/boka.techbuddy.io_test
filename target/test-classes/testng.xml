@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="example suite 1" verbose="1" >
+  <test name="Suite 1" >
+  <parameter name="username" value="46705881536" />
+  <parameter name="password" value="100100" />
+    <classes>
+      <class name="fortest.SuccessfullBookingTest"/>
+    </classes>
+ </test>
+   <test name="Suite 2" >
+  <parameter name="username" value="46705881536" />
+  <parameter name="password" value="100100" />
+    <classes>
+      <class name="fortest.BookingCancellationTest"/>
+    </classes>
+ </test>
+</suite>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="example suite 1" duration-ms="20026" started-at="2018-06-26T18:52:21Z" finished-at="2018-06-26T18:52:41Z">
+    <groups>
+    </groups>
+    <test name="Suite 1" duration-ms="11046" started-at="2018-06-26T18:52:21Z" finished-at="2018-06-26T18:52:32Z">
+      <class name="fortest.SuccessfullBookingTest">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:fortest.SuccessfullBookingTest@617c74e5]" name="setupClass" is-config="true" duration-ms="1825" started-at="2018-06-26T22:52:21Z" finished-at="2018-06-26T22:52:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="setupTest(java.lang.String, java.lang.String)[pri:0, instance:fortest.SuccessfullBookingTest@617c74e5]" name="setupTest" is-config="true" duration-ms="8173" started-at="2018-06-26T22:52:23Z" finished-at="2018-06-26T22:52:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[46705881536]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[100100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="validateSuccessfullBookingTest()[pri:0, instance:fortest.SuccessfullBookingTest@617c74e5]" name="validateSuccessfullBookingTest" duration-ms="1031" started-at="2018-06-26T22:52:31Z" finished-at="2018-06-26T22:52:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSuccessfullBookingTest -->
+      </class> <!-- fortest.SuccessfullBookingTest -->
+    </test> <!-- Suite 1 -->
+    <test name="Suite 2" duration-ms="8927" started-at="2018-06-26T18:52:32Z" finished-at="2018-06-26T18:52:41Z">
+      <class name="fortest.BookingCancellationTest">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:fortest.BookingCancellationTest@3dd3bcd]" name="setupClass" is-config="true" duration-ms="243" started-at="2018-06-26T22:52:32Z" finished-at="2018-06-26T22:52:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="setupTest(java.lang.String, java.lang.String)[pri:0, instance:fortest.BookingCancellationTest@3dd3bcd]" name="setupTest" is-config="true" duration-ms="8350" started-at="2018-06-26T22:52:33Z" finished-at="2018-06-26T22:52:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[46705881536]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[100100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="validateBookingCancellation()[pri:0, instance:fortest.BookingCancellationTest@3dd3bcd]" name="validateBookingCancellation" duration-ms="333" started-at="2018-06-26T22:52:41Z" finished-at="2018-06-26T22:52:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBookingCancellation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:fortest.BookingCancellationTest@3dd3bcd]" name="tearDown" is-config="true" duration-ms="1048" started-at="2018-06-26T22:52:41Z" finished-at="2018-06-26T22:52:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- fortest.BookingCancellationTest -->
+    </test> <!-- Suite 2 -->
+  </suite> <!-- example suite 1 -->
+</testng-results>
